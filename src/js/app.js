@@ -76,6 +76,7 @@ window.onload = function() {
     elm.addEventListener("change", function(e) {
       // <- add a listener to every input
       const attribute = e.target.getAttribute("for"); // when any input changes, collect the value
+      log;
       let values = {};
       values[attribute] =
         this.value == "" || this.value == "null"
