@@ -60,7 +60,7 @@ function render(variables = {}) {
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
         ${cover}
         <img src="${variables.avatarURL ||
-          "https://via.placeholder.com/100"}" class="photo" />
+          "https://via.placeholder.com/100"}" class="photo" /> 
         <h1>${fullName}</h1>
         <h2>${role}</h2>
         <h3>${location}</h3>
